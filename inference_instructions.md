@@ -17,10 +17,13 @@
     <font size="2"> `export nnUNet_results="PATH_TO_MRISegmentator_FOLDER/MRISegmentator/nnUNet_results"`</font>
 
    In the nnUNet_results folder, the folder structure should look like
-        nnUNet_results
-        ├── Dataset256_MRISeg
-             ├── nnUNetTrainer__nnUNetPlans__3d_fullres
-                      ├── fold_0
+   
+         PATH_TO_MRISegmentator_FOLDER  
+                     ├── MRISegmentator  
+                           ├── nnUNet_results    
+                                ├── Dataset256_MRISeg  
+                                     ├── nnUNetTrainer__nnUNetPlans__3d_fullres    
+                                              ├── fold_0   
 
 5. Organizing the inference dataset like a tree structure:
 
