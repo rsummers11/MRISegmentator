@@ -1,7 +1,7 @@
 #### **Instructions to run MRISegmentator**  
 
 
-1. Setup a standalone virtual environment, called "nnUnetV2_test". Please note that here I use `mamba` to manage virtual environments, which equals to `conda` if you use 'conda'
+1. Setup a standalone virtual environment, called "nnUnetV2_test". Please note that here it uses `mamba` to manage virtual environments, which equals to `conda` if you use 'conda'
       
     <font size="2"> `mamba create -n nnUnetV2_test python=3.9` </font>
 
