@@ -16,7 +16,7 @@
 
     <font size="2"> `export nnUNet_results="PATH_TO_MRISegmentator_FOLDER/MRISegmentator/nnUNet_results"`</font>
 
-  The folder hierarchy should look like this:
+    The folder hierarchy should look like this:  
    
          PATH_TO_MRISegmentator_FOLDER  
                      ├── MRISegmentator  
