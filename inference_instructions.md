@@ -38,7 +38,7 @@
 
     Please note that the filenames must start with a unique identifier, ***followed by a 4-digit modality identifier***. For more details see this: https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format_inference.md .    
 
-6. Running inference using the command below. Please note that you need to specify the paths of `INPUT_FOLDER` and `OUTPUT_FOLDER` for input folder for the input and output folder for results. 
+6. Running inference using the command below. Please note that you need to specify the paths of `INPUT_FOLDER` and `OUTPUT_FOLDER` for input folder and output folder to save the results. 
 
     <font size="2"> `nnUNetv2_predict -d Dataset256_MRISeg -i INPUT_FOLDER -o OUTPUT_FOLDER -f 0 -tr nnUNetTrainer -c 3d_fullres -p nnUNetPlans`</font>        
 
