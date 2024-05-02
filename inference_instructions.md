@@ -12,9 +12,9 @@
    <font size="2"> `cd nnUNet` </font>  
    <font size="2"> `pip install -e .` </font>  
 
-3. Setting some environment variables, in here you only need to setup the results variable "nnUNet_results", please configure this environment vairale to point to the provided nnUnet modle weight, so that nnUnet can find where the trained models are. For example
+3. Setting some environment variables, in here you only need to setup the results variable "nnUNet_results", please configure this environment variable to point to the provided model weights, so that the nnUnet can find where the trained model is. For example, the model weights were downloaed in a folder named "MRISegmentator", then configure nnUNet_results as:
 
-    <font size="2"> `export nnUNet_results="./MRISegmentator/nnUNet_results"`</font>
+    <font size="2"> `export nnUNet_results="PATH_TO_MRISegmentator/MRISegmentator/nnUNet_results"`</font>
 
    In the nnUNet_results folder, the folder structure should look like
         nnUNet_results
@@ -35,7 +35,7 @@
 
     Please note that the filenames must start with a unique identifier, ***followed by a 4-digit modality identifier***. For more details see this: https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format_inference.md .    
 
-6. Running inference using the command below: first for prediction, then for post-processing. Please note that you need to specify the paths of `INPUT_FOLDER`, `OUTPUT_FOLDER`, and `OUTPUT_FOLDER_PP` for input, output, outputs after post-processing. 
+6. Running inference using the command below. Please note that you need to specify the paths of `INPUT_FOLDER` and `OUTPUT_FOLDER` for input folder for the input and output folder for results. 
 
     <font size="2"> `nnUNetv2_predict -d Dataset256_MRISeg -i INPUT_FOLDER -o OUTPUT_FOLDER -f 0 -tr nnUNetTrainer -c 3d_fullres -p nnUNetPlans`</font>        
 
