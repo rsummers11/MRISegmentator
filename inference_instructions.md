@@ -12,7 +12,7 @@
    <font size="2"> `cd nnUNet` </font>  
    <font size="2"> `pip install -e .` </font>  
 
-3. Setting some environment variables, in here you only need to setup the results variable "nnUNet_results", please configure this environment variable to point to the provided model weights, so that the nnUnet can find where the trained model is. For example, the model weights (i.e., Dataset256_MRISeg) were downloaed in a folder named "nnUNet_results" in a MRISegmentator folder, then configure nnUNet_results as:
+3. Setting some environment variables, in here you only need to setup the results variable "nnUNet_results", please configure this environment variable to point to the provided model weights, so that the nnUnet can find where the trained model is. For example, the model weights (i.e., Dataset256_MRISeg) were downloaded in a folder named "nnUNet_results" in a MRISegmentator folder, then configure nnUNet_results as:
 
     <font size="2"> `export nnUNet_results="PATH_TO_MRISegmentator_FOLDER/MRISegmentator/nnUNet_results"`</font>
 
