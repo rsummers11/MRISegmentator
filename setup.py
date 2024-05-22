@@ -1,15 +1,13 @@
 from setuptools import setup, find_packages
-try:
-    import pypandoc
-    long_description = pypandoc.convert_file('README.md', 'rst')
-except(IOError, ImportError):
-    long_description = open('README.md').read()
+
+long_description = open('README.md').read()
 
 setup(name='MRISegmentator',
         version='0.2.0',
         description='Robust segmentation of 62 abdominal structures on MRI T1 Weighted images.',
         long_description=long_description,
-        url='https://github.com/wasserth/TotalSegmentator',
+        long_description_content_type="text/markdown",
+        url='https://github.com',
         author='Yan Zhuang and Abhinav Suri',
         author_email='rsummers@nih.gov',
         python_requires='>=3.9',
