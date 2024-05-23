@@ -30,7 +30,7 @@ We recommend you install MRISegmentator in a conda environment to avoid dependen
 
 ```python 
 conda create -n MRISegmentator python=3.11
-conda activate
+conda activate MRISegmentator  
 pip install MRISegmentator
 ```
 
