@@ -15,3 +15,17 @@ Please use this link to download the model weights (Coming soon!)
 Step 3: Run!
 
 <font size="2"> `MRISegmentator -i path/to/input/mri.nii.gz -o path/to/output/segmentation.nii.gz -d gpu -m path/to/model` </font>
+
+For the -d option, you can also provide cpu or mps as an option (cpu runs on your computer's CPU only and mps runs on M1/2 processors).
+
+You can also run this package via importing it in a python script:
+
+from mrisegmentator.inference import mri_segmentator
+
+```python
+input_file_path = # path to your input file /mypath/input/input.nii.gz
+output_file_path = # path to where you want to segmentation to save. e.g. /mypath/result/out.nii.gz
+device = # one of 'gpu', 'cpu', 'mps'
+path_to_model = # path to a trained nnunet mode
+mri_segmentator(input_file_path, output_file_path, device, path_to_model)
+```
