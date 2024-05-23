@@ -15,7 +15,7 @@
 
 [[Paper](https://arxiv.org/abs/2405.05944)]   [[Dataset(coming soon!)](https://)]   
 
-**Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster. We thanks ChatGPT 4o for generating the logo used in this project.
+**Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster. We thank ChatGPT 4o for generating the logo used in this project.
 
 <p align="center">
   <img src="assets/organ_structure_examples.png?raw=true" width="90%" />
@@ -43,7 +43,9 @@ Please use this link to download the model weights (**Coming soon!**)
 MRISegmentator -i path/to/input/mri.nii.gz -o path/to/output/segmentation.nii.gz -d gpu -m path/to/model
 ```
 
-For the -d option, you can also provide cpu or mps as an option (cpu runs on your computer's CPU only and mps runs on M1/2 processors).
+For the `-d` option, you can also provide `cpu` or `mps` as an option (cpu runs on your computer's CPU only and mps runs on M1/2 processors).
+
+For the `-o` option, the output path should have at least one `/` in it. If you want to output into a subdirectory, format it as `subdirectory/output_file_name.nii.gz`. If you want to output into the current directory, format it as `./output_file_name.nii.gz`. 
 
 You can also run this package via importing it in a python script:
 
