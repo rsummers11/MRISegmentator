@@ -33,8 +33,7 @@ path_to_model = # path to a trained nnunet mode
 mri_segmentator(input_file_path, output_file_path, device, path_to_model)
 ```
 ### Issues
-MRISegmentator is a research-grade segmentation tool and is under dense development, please let us know if you encounter any issues or anything we can improve the tool!
-
+MRISegmentator is a research-grade segmentation tool currently under active development. Please let us know if you encounter any issues or have suggestions for improvements
 
 ### References
 If you find our work is useful for your research, please consider citing
