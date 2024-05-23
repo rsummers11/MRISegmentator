@@ -1,11 +1,14 @@
 ### **MRISegmentator-Abdomen**
+
 <p float="left">
-  <img src="assets/masks1.png?raw=true" width="37.25%" />
+  <img src="assets/MRISegmentatorLogo.png?raw=true" width="37.25%" />
 </p>
 
-**[Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center](https://ai.facebook.com/research/)**
+**Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center**
 
-[Yan Zhuang](https://yanzhuang.me/), Tejas Sudharshan Mathai, Pritam Mukherjee, Brandon Khoury, Boah Kim,  Benjamin Hou, Nusrat Rabbee, Ronald M. Summers 
+Yan Zhuang, Tejas Sudharshan Mathai$*$, Pritam Mukherjee$*$, Brandon Khoury, Boah Kim,  Benjamin Hou, Nusrat Rabbee, Ronald M. Summers ($*$ Equal contribution)
+
+Acknowledgement: 
 
 **Requirements**: We recommend running on a computer with a GPU. This package can be run on a computer with a CPU, but it will take a very long time to process a single scan.
 
