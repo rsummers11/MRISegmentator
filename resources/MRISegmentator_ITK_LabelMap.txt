@@ -1,0 +1,77 @@
+################################################
+# ITK-SnAP Label Description File
+# File format: 
+# IDX   -R-  -G-  -B-  -A--  VIS MSH  LABEL
+# Fields: 
+#    IDX:   Zero-based index 
+#    -R-:   Red color component (0..255)
+#    -G-:   Green color component (0..255)
+#    -B-:   Blue color component (0..255)
+#    -A-:   Label transparency (0.00 .. 1.00)
+#    VIS:   Label visibility (0 or 1)
+#    IDX:   Label mesh visibility (0 or 1)
+#  LABEL:   Label description 
+################################################
+    0     0    0    0        0  0  0    "Clear Label"
+    1   255    0    0        1  1  1    "spleen"
+    2     0  255    0        1  1  1    "kidney_right"
+    3     0    0  255        1  1  1    "kidney_left"
+    4   255  255    0        1  1  1    "gallbladder"
+    5     0  255  255        1  1  1    "liver"
+    6   240  255  240        1  1  1    "esophagus"
+    7   255    0  255        1  1  1    "stomach"
+    8   255  239  128        1  1  1    "aorta"
+    9     0    0  205        1  1  1    "inferior_vena_cava"
+   10   205  133   63        1  1  1    "portal_vein_and_splenic_vein"
+   11   210  180  140        1  1  1    "pancreas"
+   12   102  205  170        1  1  1    "adrenal_gland_right"
+   13     0    0  128        1  1  1    "adrenal_gland_left"
+   14     0  139  139        1  1  1    "lung_right"
+   15    65  105  225        1  1  1    "lung_left"
+   16   255   99   71        1  1  1    "small_bowel"
+   17   250  240  230        1  1  1    "duodenum"  
+   18   184  134   11        1  1  1    "colon"
+   19   245  255  250        1  1  1    "iliac_artery_left"
+   20   255  160  122        1  1  1    "iliac_artery_right"
+   21   144  238  144        1  1  1    "iliac_vena_left"
+   22   173  255   47        1  1  1    "iliac_vena_right"
+   23   210  105   30        1  1  1    "gluteus_maximus_left"
+   24   255  248  220        1  1  1    "gluteus_maximus_right"
+   25    47   79   79        1  1  1    "gluteus_medius_left"
+   26    72   61  139        1  1  1    "gluteus_medius_right"
+   27   176  224  230        1  1  1    "autochthon_left"
+   28   255  240  245        1  1  1    "autochthon_right"
+   29   139    0    0        1  1  1    "iliopsoas_left"
+   30   240  255  255        1  1  1    "iliopsoas_right"
+   31   186   85  211        1  1  1    "hip_left"
+   32   255  228  64        1  1  1    "hip_right"
+   33   255  222  173        1  1  1    "sacrum"
+   34   255  255  240        1  1  1    "rib_left_4"
+   35   123  104  238        1  1  1    "rib_left_5"
+   36   255  165    0        1  1  1    "rib_left_6"
+   37   173  216  230        1  1  1    "rib_left_7"
+   38   255  192  203        1  1  1    "rib_left_8"
+   39   127  255  212        1  1  1    "rib_left_9"
+   40   255  140    0        1  1  1    "rib_left_10"
+   41   143  188  143        1  1  1    "rib_left_11"
+   42   220   20   60        1  1  1    "rib_left_12"
+   43     0  255  127        1  1  1    "rib_right_4"
+   44   128    0  128        1  1  1    "rib_right_5"
+   45   255  250  205        1  1  1    "rib_right_6"
+   46   250  128  114        1  1  1    "rib_right_7"
+   47   148    0  211        1  1  1    "rib_right_8"
+   48   178   34   34        1  1  1    "rib_right_9"
+   49   255  127   80        1  1  1    "rib_right_10"
+   50   135  206  235        1  1  1    "rib_right_11"
+   51   100  149  237        1  1  1    "rib_right_12"   
+   52   233  150  122        1  1  1    "vertebrae_L5"
+   53   165   42   42        1  1  1    "vertebrae_L4"
+   54   255  250  250        1  1  1    "vertebrae_L3"
+   55   147  112  219        1  1  1    "vertebrae_L2"
+   56   218  112  214        1  1  1    "vertebrae_L1"
+   57    75    0  130        1  1  1    "vertebrae_T12"
+   58   255  182  193        1  1  1    "vertebrae_T11"
+   59    60  179  113        1  1  1    "vertebrae_T10"
+   60   255  235  205        1  1  1    "vertebrae_T9"
+   61   255   64  196        1  1  1    "vertebrae_T8"
+   62   218  165   32        1  1  1    "vertebrae_T7"
