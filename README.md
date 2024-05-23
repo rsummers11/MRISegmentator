@@ -6,12 +6,12 @@
 
 MRISegmentator-Abdomen: A Fully Automated Multi-Organ and Structure Segmentation Tool for T1-weighted Abdominal MRI  
 
-[Yan Zhuang](https://yanzhuang.me/)<sup>1</sup>, Tejas Sudharshan Mathai<sup>1</sup>$`^*`$, Pritam Mukherjee $`1,^*`$, Brandon Khoury $`2`$, Boah Kim $`1`$,  Benjamin Hou$`1`$, Nusrat Rabbee$`3`$, and Ronald M. Summers$`1`$  
+[Yan Zhuang](https://yanzhuang.me/)<sup>1</sup>, Tejas Sudharshan Mathai<sup>1,*</sup>, Pritam Mukherjee<sup>1,*</sup>, Brandon Khoury<sup>2</sup>, Boah Kim<sup>1</sup>,  Benjamin Hou<sup>1</sup>, Nusrat Rabbee<sup>3</sup>, and Ronald M. Summers<sup>1</sup>  
  
-$`1`$ Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center  
-$`2`$ Department of Radiology, Walter Reed National Military Medical Center   
-$`3`$ Biostatistics and Clinical Epidemiology Services, NIH Clinical Center   
-<font size="2"> $`^*`$ equal contribution </font> 
+<sup>1</sup> Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center  
+<sup>2</sup> Department of Radiology, Walter Reed National Military Medical Center   
+<sup>3</sup> Biostatistics and Clinical Epidemiology Services, NIH Clinical Center   
+<font size="2"><sup>*</sup> equal contribution </font> 
 
 **Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster.
 
