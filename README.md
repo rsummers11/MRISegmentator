@@ -11,7 +11,7 @@
 
 **Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster.
 
-[Paper](https://arxiv.org/abs/2405.05944) [Dataset](coming soon!)
+[Paper](https://arxiv.org/abs/2405.05944)  Dataset(coming soon!)
 
 ---  
 
@@ -56,15 +56,16 @@ For some classes they differ which you can see in the table below.
 
 [Here](resources/totalsegmentator_snomed_mapping.csv) you can find a mapping of the TotalSegmentator classes to SNOMED-CT codes.
 
-|Index|Organ or Structure name|
+|Organ or Structure name | Label|
 |:-----|:-----|
-1 | spleen ||
-2 | kidney_right ||
-3 | kidney_left ||
-4 | gallbladder ||
-5 | liver ||
-6 | stomach ||
-7 | pancreas ||
+spleen |1 | 
+2 | kidney_right |
+3 | kidney_left |
+4 | gallbladder |
+5 | liver |
+6 | esophagus | 
+7 | stomach |
+7 | pancreas |
 8 | adrenal_gland_right | suprarenal gland |
 9 | adrenal_gland_left | suprarenal gland |
 10 | lung_upper_lobe_left | superior lobe of left lung |
