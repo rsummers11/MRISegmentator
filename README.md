@@ -59,7 +59,7 @@ mri_segmentator(input_file_path, output_file_path, device, path_to_model)
 
 Below is a table that maps the segmentation codes to the original bodypart name, or   
 
-[Here](resources/MRISegmentator_ITK_LabelMap.txt) you can find itk-snap label description.
+[Here](resources/MRISegmentator_ITK_LabelMap.txt) you can find the itk-snap label description.
 
 |Organ or Structure name | Label|
 |:-----|:-----|
