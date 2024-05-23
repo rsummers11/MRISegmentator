@@ -1,4 +1,4 @@
-## **MRISegmentator-Abdomen**
+### **MRISegmentator-Abdomen**
 
 **Requirements**: We recommend running on a computer with a GPU. This package can be run on a computer with a CPU, but it will take a very long time to process a single scan.
 
@@ -32,7 +32,11 @@ device = # one of 'gpu', 'cpu', 'mps'
 path_to_model = # path to a trained nnunet mode
 mri_segmentator(input_file_path, output_file_path, device, path_to_model)
 ```
-## References
+### Issues
+MRISegmentator is a research-grade segmentation tool and is under dense development, please let us know if you encounter any issues or anything we can improve the tool!
+
+
+### References
 If you find our work is useful for your research, please consider citing
 ```bib
 @article{zhuang2024mrisegmentator,
@@ -41,4 +45,29 @@ If you find our work is useful for your research, please consider citing
   journal={arXiv preprint arXiv:2405.05944},
   year={2024}
 }
+```
+
+### MIT License
+```
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
