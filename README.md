@@ -1,5 +1,5 @@
-<p float="center">
-  <img src="assets/MRISegmentatorLogo.png?raw=true" width="37.25%" />
+<p align="center">
+  <img src="assets/MRISegmentatorLogo.png?raw=true" width="40%" />
 </p>
 
 ## **MRISegmentator-Abdomen**
@@ -9,7 +9,7 @@
 Yan Zhuang, Tejas Sudharshan Mathai$`^*`$, Pritam Mukherjee$`^*`$, Brandon Khoury, Boah Kim,  Benjamin Hou, Nusrat Rabbee, and Ronald M. Summers  
 <font size="2"> $`^*`$ equal contribution </font>
 
-**Acknowledgement**: This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster.
+**Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster.
 
 **Requirements**: We recommend running on a computer with a GPU. This package can be run on a computer with a CPU, but it will take a very long time to process a single scan.
 
