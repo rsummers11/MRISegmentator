@@ -132,7 +132,7 @@ vertebrae_T7 |	62 |
 MRISegmentator is a research-grade segmentation tool currently under active development. Please let us know if you encounter any issues or have suggestions for improvements.
 
 ### References
-If you find our work is useful for your research, please consider citing
+If you find our work is useful for your research, please cite
 ```bib
 @article{zhuang2024mrisegmentator,
   title={MRISegmentator-Abdomen: A Fully Automated Multi-Organ and Structure Segmentation Tool for T1-weighted Abdominal MRI},
@@ -141,5 +141,18 @@ If you find our work is useful for your research, please consider citing
   year={2024}
 }
 ```
+
+We used nnUnet in our research, please also consider citing  
+
+@article{isensee2021nnu,
+  title={nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation},
+  author={Isensee, Fabian and Jaeger, Paul F and Kohl, Simon AA and Petersen, Jens and Maier-Hein, Klaus H},
+  journal={Nature methods},
+  volume={18},
+  number={2},
+  pages={203--211},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
 
 ### any None-conmmerical License (e.g., CC-BY-4.0 ??? what license should we use?)
