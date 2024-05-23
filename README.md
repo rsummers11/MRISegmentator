@@ -4,14 +4,19 @@
 
 ## **MRISegmentator-Abdomen**
 
-**Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center**
+MRISegmentator-Abdomen: A Fully Automated Multi-Organ and Structure Segmentation Tool for T1-weighted Abdominal MRI  
 
 [Yan Zhuang](https://yanzhuang.me/), Tejas Sudharshan Mathai$`^*`$, Pritam Mukherjee$`^*`$, Brandon Khoury, Boah Kim,  Benjamin Hou, Nusrat Rabbee, and Ronald M. Summers  
-<font size="2"> $`^*`$ equal contribution </font>
+<font size="2"> $`^*`$ equal contribution </font>  
+
+Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center  
+Department of Radiology, Walter Reed National Military Medical Center 
+3Biostatistics and Clinical Epidemiology Services, NIH Clinical Center 
 
 **Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster.
 
-[Paper](https://arxiv.org/abs/2405.05944)  Dataset(coming soon!)
+[Paper](https://arxiv.org/abs/2405.05944) 
+[Dataset(coming soon!)](https://) 
 
 ---  
 
