@@ -1,8 +1,8 @@
-#### **MRISegmentator-Abdomen**
+## **MRISegmentator-Abdomen**
 
-Requirements: We recommend running on a computer with a GPU. This package can be run on a computer with a CPU, but it will take a very long time to process a single scan.
+**Requirements**: We recommend running on a computer with a GPU. This package can be run on a computer with a CPU, but it will take a very long time to process a single scan.
 
-Step 1: Create a virtual environment and install the package
+**Step 1**: Create a virtual environment and install the package
 We recommend you install MRISegmentator in a conda environment to avoid dependency conflicts. Note you can use any version of python that supports nnUNet v2.2 or above
 
 ```python 
@@ -11,10 +11,10 @@ conda activate
 pip install MRISegmentator
 ```
 
-Step 2: Download weights
+**Step 2**: Download weights
 Please use this link to download the model weights (Coming soon!)
 
-Step 3: Run!
+**Step 3**: Run!
 
 ```python
 MRISegmentator -i path/to/input/mri.nii.gz -o path/to/output/segmentation.nii.gz -d gpu -m path/to/model
