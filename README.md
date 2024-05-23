@@ -6,7 +6,7 @@
 
 MRISegmentator-Abdomen: A Fully Automated Multi-Organ and Structure Segmentation Tool for T1-weighted Abdominal MRI  
 
-[Yan Zhuang](https://yanzhuang.me/)$`1`$ , Tejas Sudharshan Mathai$`1,^*`$, Pritam Mukherjee$`1,^*`$, Brandon Khoury$`2`$, Boah Kim$`1`$,  Benjamin Hou$`1`$, Nusrat Rabbee$`3`$, and Ronald M. Summers$`1`$  
+[Yan Zhuang](https://yanzhuang.me/) $`1`$ , Tejas Sudharshan Mathai $`1,^*`$, Pritam Mukherjee $`1,^*`$, Brandon Khoury $`2`$, Boah Kim $`1`$,  Benjamin Hou$`1`$, Nusrat Rabbee$`3`$, and Ronald M. Summers$`1`$  
  
 $`1`$ Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center  
 $`2`$ Department of Radiology, Walter Reed National Military Medical Center   
