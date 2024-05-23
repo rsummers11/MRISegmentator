@@ -19,6 +19,7 @@
 [Dataset(coming soon!)](https://) 
 
 ---  
+## **Run MRISegmentator**
 
 **Requirements**: We recommend running on a computer with a GPU. This package can be run on a computer with a CPU, but it will take a very long time to process a single scan.
 
