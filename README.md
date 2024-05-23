@@ -16,7 +16,7 @@
 **Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster.
 
 <p align="center">
-  <img src="assets/organs_structures_examples.png?raw=true" width="40%" />
+  <img src="assets/organ_structure_examples.png?raw=true" width="40%" />
 </p>
 
 [Paper](https://arxiv.org/abs/2405.05944)   
