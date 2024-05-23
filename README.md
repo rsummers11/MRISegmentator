@@ -1,8 +1,8 @@
-### **MRISegmentator-Abdomen**
-
-<p float="left">
+<p float="center">
   <img src="assets/MRISegmentatorLogo.png?raw=true" width="37.25%" />
 </p>
+
+## **MRISegmentator-Abdomen**
 
 **Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center**
 
