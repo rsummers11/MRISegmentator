@@ -57,7 +57,7 @@ mri_segmentator(input_file_path, output_file_path, device, path_to_model)
 ```
 ### Segmentation labels
 
-Below is a table that maps the segmentation codes to the original bodypart name
+Below is a table that maps the segmentation codes to the original bodypart name, or   
 
 [Here](resources/MRISegmentator_ITK_LabelMap.txt) you can find itk-snap label description.
 
@@ -127,7 +127,7 @@ vertebrae_T8 |	61 |
 vertebrae_T7 |	62 |
 
 ### Issues
-MRISegmentator is a research-grade segmentation tool currently under active development. Please let us know if you encounter any issues or have suggestions for improvements
+MRISegmentator is a research-grade segmentation tool currently under active development. Please let us know if you encounter any issues or have suggestions for improvements.
 
 ### References
 If you find our work is useful for your research, please consider citing
