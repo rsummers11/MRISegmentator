@@ -59,10 +59,7 @@ mri_segmentator(input_file_path, output_file_path, device, path_to_model)
 
 Below is a table that maps the segmentation codes to the original bodypart name
 
-TA2 is a standardized way to name anatomy. Mostly the TotalSegmentator names follow this standard.
-For some classes they differ which you can see in the table below.
-
-[Here](resources/totalsegmentator_snomed_mapping.csv) you can find a mapping of the TotalSegmentator classes to SNOMED-CT codes.
+[Here](resources/MRISegmentator_ITK_LabelMap.txt) you can find itk-snap label description.
 
 |Organ or Structure name | Label|
 |:-----|:-----|
