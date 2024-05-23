@@ -35,7 +35,7 @@ pip install MRISegmentator
 ```
 
 **Step 2**: Download weights
-Please use this link to download the model weights (Coming soon!)
+Please use this link to download the model weights (**Coming soon!**)
 
 **Step 3**: Run!
 
