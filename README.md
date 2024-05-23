@@ -5,9 +5,11 @@ Requirements: We recommend running on a computer with a GPU. This package can be
 Step 1: Create a virtual environment and install the package
 We recommend you install MRISegmentator in a conda environment to avoid dependency conflicts. Note you can use any version of python that supports nnUNet v2.2 or above
 
-<font size="2"> `conda create -n MRISegmentator python=3.11` </font>  
-<font size="2"> `conda activate` </font>  
-<font size="2"> `pip install MRISegmentator` </font>  
+```python 
+conda create -n MRISegmentator python=3.11
+conda activate
+pip install MRISegmentator
+```
 
 Step 2: Download weights
 Please use this link to download the model weights (Coming soon!)
