@@ -6,8 +6,8 @@
 
 **Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center**
 
-Yan Zhuang, Tejas Sudharshan Mathai$`^*`$, Pritam Mukherjee$`^*`$, Brandon Khoury, Boah Kim,  Benjamin Hou, Nusrat Rabbee, Ronald M. Summers  
-($`^*`$ equal contribution)
+Yan Zhuang, Tejas Sudharshan Mathai$`^*`$, Pritam Mukherjee$`^*`$, Brandon Khoury, Boah Kim,  Benjamin Hou, Nusrat Rabbee, and Ronald M. Summers  
+<font size="2"> $`^*`$ equal contribution </font>
 
 Acknowledgement: 
 
