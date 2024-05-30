@@ -71,7 +71,7 @@ Normally, we handle downloading the weights for you, but if we release a new mod
 MRISegmentator_Redownload
 ```
 
-The last time model weights have been changed is on **May 30, 2024**.
+The last time model weights were changed was on **May 30, 2024**.
 
 ### Segmentation labels
 
