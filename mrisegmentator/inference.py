@@ -3,7 +3,7 @@ import os
 import contextlib
 import sys
 import warnings
-
+from .download_weights import download_weights
 
 class DummyFile:
     def write(self, x): pass
@@ -20,7 +20,8 @@ def nostdout(verbose=False):
         yield
 
 
-def mri_segmentator(input_file, output_file, device='gpu', path_to_model='nnUNetTrainer__nnUNetPlans__3d_fullres'):
+def mri_segmentator(input_file, output_file, path_to_model, device='gpu'):
+
     print("Checking inputs")
     if input_file.find('.nii') == -1:
         raise ValueError("invalid file type: must have .nii in filename")
@@ -29,8 +30,16 @@ def mri_segmentator(input_file, output_file, device='gpu', path_to_model='nnUNet
     if device not in ['gpu', 'cpu', 'mps']:
         raise ValueError("invalid device: must be one of 'gpu', 'cpu', or 'mps'")
 
+    # nnunet needs absolute path to a file to handle cases where user supplies bare filename
+
+    output_file = os.path.abspath(output_file)
+
+    if path_to_model is None:
+        path_to_model = download_weights()
+
     if not os.path.isdir(path_to_model):
         raise ValueError("invalid path to trained model folder")
+
     print("setup devices") 
 
     import torch
@@ -93,4 +102,3 @@ def mri_segmentator(input_file, output_file, device='gpu', path_to_model='nnUNet
             print(i, e)
             pass
     print("DONE!")
-

@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 long_description = open('README.md').read()
 
 setup(name='MRISegmentator',
-        version='0.2.1',
+        version='0.3.0',
         description='Robust segmentation of 62 abdominal structures on MRI T1 Weighted images.',
         long_description=long_description,
         long_description_content_type="text/markdown",
@@ -18,6 +18,7 @@ setup(name='MRISegmentator',
             'tqdm>=4.45.0',
             'p_tqdm',
             'nnunetv2>=2.2.1',
+            'requests'
         ],
         zip_safe=False,
         classifiers=[
@@ -28,6 +29,7 @@ setup(name='MRISegmentator',
         entry_points={
             'console_scripts': [
                 'MRISegmentator=mrisegmentator.cmdline:main',
+                'MRISegmentator_Redownload=mrisegmentator.download_weights:force_redownload',
             ],
         },
     )

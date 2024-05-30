@@ -9,21 +9,23 @@ def main():
 
     parser.add_argument("-o", metavar="filepath", dest="output",
                         help="Output filepath for segmentation masks",
-                        required=False)
+                        required=True)
     
     parser.add_argument("-d", "--device", choices=["gpu", "cpu", "mps"],
                         help="Device to run on (default: gpu).",
                         default="gpu")
     
     parser.add_argument("-m", metavar="directory", dest="path_to_model",
-                        help="Path to trained nnunet model",
-                        required=True)
+                        help="Path to trained nnunet model (if not specified looks for " +\
+                            "weights at ~/.mrisegmentator_weights or env var $MRISEGMENTATOR_DIR " +\
+                            "and will attempt to download if not at either location.",
+                        required=False)
 
     args = parser.parse_args()
 
     from .inference import mri_segmentator
 
-    mri_segmentator(args.input, args.output, args.device, args.path_to_model)
+    mri_segmentator(args.input, args.output, args.path_to_model, args.device)
 
 if __name__ == "__main__":
     main()

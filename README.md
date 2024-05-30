@@ -34,19 +34,20 @@ conda activate MRISegmentator
 pip install MRISegmentator
 ```
 
-**Step 2**: Download weights
-Please use this link to download the model weights (**Coming soon!**)
-
-**Step 3**: Run!
+**Step 2**: Run!
 
 ```sh
-MRISegmentator -i path/to/input/mri.nii.gz -o path/to/output/segmentation.nii.gz -d gpu -m path/to/model
+MRISegmentator -i path/to/input/mri.nii.gz -o path/to/output/segmentation.nii.gz -d gpu
 ```
 
 *Notes*:   
-For the `-d` option, you can also provide `cpu` or `mps` as an option (cpu runs on your computer's CPU only and mps runs on M1/2 processors).  
 
-For the `-o` option, the output path should have at least one `/` in it. If you want to output into a subdirectory, format it as `subdirectory/output_file_name.nii.gz`. If you want to output into the current directory, format it as `./output_file_name.nii.gz`. 
+* The model weights will download on their own to one of the following directories:
+  - if the environment variable `MRISEGMENTATOR_DIR` is set, we will download to that directory (and create the directory if it does not exist)
+  - if that environment variable is not set, it will download to the home directory at `~/.mrisegmentator_weights`.
+  - You can also specify a directory for the weights via the `-m` option (this must be a path to the extracted folder from [this zip file](https://nihcc.app.box.com/index.php?rm=box_download_shared_file&shared_name=q6vl3015hteoufz7jll63u3hdqk79li7&file_id=f_1544045874167))
+
+* For the `-d` option, you can also provide `cpu` or `mps` as an option (cpu runs on your computer's CPU only and mps runs on M1/2 processors).  
 
 ## Python API
 
@@ -58,9 +59,19 @@ from mrisegmentator.inference import mri_segmentator
 input_file_path = # path to your input file /mypath/input/input.nii.gz
 output_file_path = # path to where you want to segmentation to save. e.g. /mypath/result/out.nii.gz
 device = # one of 'gpu', 'cpu', 'mps'
-path_to_model = # path to a trained nnunet mode
-mri_segmentator(input_file_path, output_file_path, device, path_to_model)
+path_to_model = # path to a trained nnunet model, if None will attempt to search for model weights above
+mri_segmentator(input_file_path, output_file_path, path_to_model, device)
 ```
+
+### Redownloading weights
+
+Normally, we handle downloading the weights for you, but if we release a new model version, we will need you to redownload the weights via the following command
+
+```
+MRISegmentator_Redownload
+```
+
+The last time model weights have been changed is on **May 30, 2024**.
 
 ### Segmentation labels
 
