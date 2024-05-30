@@ -57,6 +57,7 @@ device = # one of 'gpu', 'cpu', 'mps'
 path_to_model = # path to a trained nnunet mode
 mri_segmentator(input_file_path, output_file_path, device, path_to_model)
 ```
+
 ### Segmentation labels
 
 Below is a table that maps the segmentation codes to the original bodypart name, or   
