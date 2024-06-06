@@ -174,4 +174,3 @@ vertebrae_T9 |	60 |
 vertebrae_T8 |	61 |
 vertebrae_T7 |	62 |
 
-### any None-conmmerical License (e.g., CC-BY-4.0 ??? what license should we use?)
