@@ -103,7 +103,7 @@ We used nnUnet in our research, please also consider citing
   publisher={Nature Publishing Group}
 }
 ```
-### LICENSE
+### License
 
 Please check out the software terms in the "Software Terms of MRISegmentator.pdf" file. 
 
