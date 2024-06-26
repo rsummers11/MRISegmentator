@@ -6,7 +6,7 @@
 
 **MRISegmentator-Abdomen: A Fully Automated Multi-Organ and Structure Segmentation Tool for T1-weighted Abdominal MRI**  
 
-[Yan Zhuang](https://yanzhuang.me/)<sup>1</sup>, Tejas Sudharshan Mathai<sup>1, *</sup>, Pritam Mukherjee<sup>1, *</sup>, Brandon Khoury<sup>2</sup>, Boah Kim<sup>1</sup>,  Benjamin Hou<sup>1</sup>, Nusrat Rabbee<sup>3</sup>, Abhinav Suri<sup>1</sup>, and Ronald M. Summers<sup>1</sup>  
+[Yan Zhuang](https://yanzhuang.me/)<sup>1</sup>, Tejas Sudharshan Mathai<sup>1, *</sup>, Pritam Mukherjee<sup>1, *</sup>, Brandon Khoury<sup>2</sup>, Boah Kim<sup>1</sup>,  Benjamin Hou<sup>1</sup>, Nusrat Rabbee<sup>3</sup>,  [Abhinav Suri](https://abhinavsuri.com/)<sup>1</sup>, and Ronald M. Summers<sup>1</sup>  
  
 <sup>1</sup> Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH Clinical Center  
 <sup>2</sup> Department of Radiology, Walter Reed National Military Medical Center   
@@ -15,7 +15,7 @@
 
 [[Paper](https://arxiv.org/abs/2405.05944)]   [[Dataset(coming soon!)](https://)]   
 
-**Acknowledgement**: We would like to acknowledge [Abhinav Suri](https://abhinavsuri.com/) for his invaluable support to create the pip package. This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster. We thank ChatGPT 4o for generating the logo used in this project.
+**Acknowledgement**: This work was supported by the Intramural Research Program of the National Institutes of Health (NIH) Clinical Center (project number 1Z01 CL040004). This work used the computational resources of the NIH HPC Biowulf cluster. We thank ChatGPT 4o for generating the logo used in this project.
 
 <p align="center">
   <img src="assets/organ_structure_examples.png?raw=true" width="90%" />
