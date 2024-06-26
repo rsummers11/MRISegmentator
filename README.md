@@ -105,7 +105,7 @@ We used nnUnet in our research, please also consider citing
 ```
 ### License
 
-Please check out the software terms in the "Software Terms of MRISegmentator.pdf" file. 
+Please check out [the license file](Software%20Terms%20of%20MRISegmentator.pdf). 
 
 ### Segmentation labels
 
