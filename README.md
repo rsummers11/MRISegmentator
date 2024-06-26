@@ -77,6 +77,7 @@ The last time model weights were changed was on **May 30, 2024**.
 ### Issues
 MRISegmentator is a research-grade segmentation tool currently under active development. Please let us know if you encounter any issues or have suggestions for improvements.
 
+
 ### References
 If you find our work is useful for your research, please cite
 ```bib
@@ -102,6 +103,9 @@ We used nnUnet in our research, please also consider citing
   publisher={Nature Publishing Group}
 }
 ```
+### LICENSE
+
+Please check out the software terms in the "Software Terms of MRISegmentator.pdf" file. 
 
 ### Segmentation labels
 
