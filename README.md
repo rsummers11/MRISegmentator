@@ -82,7 +82,7 @@ If you find our work is useful for your research, please cite
 ```bib
 @article{zhuang2024mrisegmentator,
   title={MRISegmentator-Abdomen: A Fully Automated Multi-Organ and Structure Segmentation Tool for T1-weighted Abdominal MRI},
-  author={Zhuang, Yan and Mathai, Tejas Sudharshan and Mukherjee, Pritam and Khoury, Brandon and Kim, Boah and Hou, Benjamin and Rabbee, Nusrat and Summers, Ronald M},
+  author={Zhuang, Yan and Mathai, Tejas Sudharshan and Mukherjee, Pritam and Khoury, Brandon and Kim, Boah and Hou, Benjamin and Rabbee, Nusrat and Suri, Abhinav and Summers, Ronald M},
   journal={arXiv preprint arXiv:2405.05944},
   year={2024}
 }
