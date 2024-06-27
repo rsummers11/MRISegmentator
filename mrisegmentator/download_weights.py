@@ -3,7 +3,6 @@ function: automatically downloading model weights for the MRISegmentator package
 author = "Abhinav Suri, Yan Zhuang"
 license = "Please see the license file"
 email = "yan.zhuang2@nih.gov or rsummers@mail.cc.nih.gov"
-Note modified from: --
 Date: 06/27/2024
 """
 
