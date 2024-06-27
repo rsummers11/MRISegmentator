@@ -1,5 +1,13 @@
-import argparse
+"""
+function: specifying arguments for the MRISegmentator package
+author = "Abhinav Suri, Yan Zhuang"
+license = "Please see the license file"
+email = "yan.zhuang2@nih.gov or rsummers@mail.cc.nih.gov"
+Note modified from: --
+Date: 06/27/2024
+"""
 
+import argparse
 
 def main():
     parser = argparse.ArgumentParser(description="Segment 68 anatomical structures on T1 weighted MRI. Model by Yan Zhuang. Package by Abhinav Suri. If you use this tool cite https://arxiv.org/abs/2405.05944")
