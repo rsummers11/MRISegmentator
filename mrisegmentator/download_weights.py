@@ -1,3 +1,12 @@
+"""
+function: automatically downloading model weights for the MRISegmentator package
+author = "Abhinav Suri, Yan Zhuang"
+license = "Please see the license file"
+email = "yan.zhuang2@nih.gov or rsummers@mail.cc.nih.gov"
+Note modified from: --
+Date: 06/27/2024
+"""
+
 import requests
 from tqdm import tqdm
 import os
@@ -5,6 +14,9 @@ from pathlib import Path
 import zipfile
 
 def get_weights_dir():
+    """
+    Creat directory to store model weights
+    """
     env_var = 'MRISEGMENTATOR_DIR'
     if os.environ.get('MRISEGMENTATOR_DIR') is not None:
         dir = os.environ.get('MRISEGMENTATOR_DIR')
@@ -19,6 +31,9 @@ def get_weights_dir():
         raise FileNotFoundError(f"cannot create directory to store weights at {dir}: ERROR: {e}")
 
 def download_weights(redownload=False):
+    """
+    download the weights automatically
+    """
     url = 'https://nihcc.app.box.com/index.php?rm=box_download_shared_file&shared_name=q6vl3015hteoufz7jll63u3hdqk79li7&file_id=f_1544045874167'
     
     filepath = get_weights_dir() + '/MRISegmentator.zip'
