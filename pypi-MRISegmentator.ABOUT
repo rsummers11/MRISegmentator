@@ -1,0 +1,13 @@
+name: MRISegmentator
+description: Robust segmentation of 62 abdominal structures on MRI T1 Weighted images.
+license_spdx: Other
+version: 0.4.0
+spec_version: 1.0
+home_url: https://github.com/rsummers11/MRISegmentator
+news_url: https://libraries.io/pypi/MRISegmentator/versions.atom
+date: 2024-06-27
+about_resource: NONE
+libraries_io_url: https://libraries.io/pypi/MRISegmentator?number=0.4.0
+vcs_tool: git
+vcs_repository: https://github.com/rsummers11/MRISegmentator
+vcs_branch: main
