@@ -56,6 +56,7 @@ You can also run this package via importing it in a python script:
 
 ```python
 from mrisegmentator.inference import mri_segmentator
+
 if __name__ == '__main__':
     input_file_path = # path to your input file /mypath/input/input.nii.gz
     output_file_path = # path to where you want to segmentation to save. e.g. /mypath/result/out.nii.gz
