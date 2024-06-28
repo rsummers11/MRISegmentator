@@ -56,11 +56,12 @@ You can also run this package via importing it in a python script:
 
 ```python
 from mrisegmentator.inference import mri_segmentator
-input_file_path = # path to your input file /mypath/input/input.nii.gz
-output_file_path = # path to where you want to segmentation to save. e.g. /mypath/result/out.nii.gz
-device = # one of 'gpu', 'cpu', 'mps'
-path_to_model = # path to a trained nnunet model, if None will attempt to search for model weights above
-mri_segmentator(input_file_path, output_file_path, path_to_model, device)
+if __name__ == '__main__':
+    input_file_path = # path to your input file /mypath/input/input.nii.gz
+    output_file_path = # path to where you want to segmentation to save. e.g. /mypath/result/out.nii.gz
+    device = # one of 'gpu', 'cpu', 'mps'
+    path_to_model = 'None' # it will automatically download the model weights, so just configure it as None
+    mri_segmentator(input_file_path, output_file_path, path_to_model, device)
 ```
 
 ### Redownloading weights
