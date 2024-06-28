@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 long_description = open('README.md').read()
 
 setup(name='MRISegmentator',
-        version='0.4.1',
+        version='0.4.2',
         description='Robust segmentation of 62 abdominal structures on MRI T1 Weighted images.',
         long_description=long_description,
         long_description_content_type="text/markdown",
