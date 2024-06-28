@@ -14,7 +14,7 @@ import zipfile
 
 def get_weights_dir():
     """
-    Creat directory to store model weights
+    Create directory to store model weights
     """
     env_var = 'MRISEGMENTATOR_DIR'
     if os.environ.get('MRISEGMENTATOR_DIR') is not None:
@@ -23,7 +23,7 @@ def get_weights_dir():
         dir = str(Path.home()) + '/.mrisegmentator_weights'
     try:
         if not os.path.isdir(dir):
-            print("making totalsegmentator directory at:", dir)
+            print("making mrisegmentator directory at:", dir)
             os.makedirs(dir)
         return dir
     except Exception as e:

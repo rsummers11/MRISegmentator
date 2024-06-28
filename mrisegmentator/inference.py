@@ -100,7 +100,7 @@ def mri_segmentator(input_file, output_file, path_to_model, device='gpu'):
         predictor.predict_from_files([[input_file]],
              [output_file],
              save_probabilities=False, overwrite=True,
-             num_processes_preprocessing=1, num_processes_segmentation_export=1,
+             num_processes_preprocessing=2, num_processes_segmentation_export=2,
              folder_with_segs_from_prev_stage=None, num_parts=1, part_id=0)
     print("Cleaning up...")
     for i in ['dataset.json', 'plans.json', 'predict_from_raw_data_args.json']:
